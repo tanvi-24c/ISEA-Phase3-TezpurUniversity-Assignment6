@@ -1,0 +1,79 @@
+[2026-07-14 13:34:31] SERVER_START | user=- | ip=0.0.0.0 | listening on port 5000
+[2026-07-14 13:34:38] CONNECT | user=- | ip=127.0.0.1 | new TCP connection
+[2026-07-14 13:34:38] LOGIN_SUCCESS | user=tanvi | ip=127.0.0.1 | authenticated
+[2026-07-14 13:34:38] CONNECT | user=- | ip=127.0.0.1 | new TCP connection
+[2026-07-14 13:34:38] DUPLICATE_LOGIN | user=tanvi | ip=127.0.0.1 | rejected - already logged in
+[2026-07-14 13:34:38] CONNECT | user=- | ip=127.0.0.1 | new TCP connection
+[2026-07-14 13:34:38] LOGIN_FAILED | user=alice | ip=127.0.0.1 | invalid credentials
+[2026-07-14 13:34:38] DISCONNECT | user=- | ip=127.0.0.1 | connection closed
+[2026-07-14 13:34:38] CONNECT | user=- | ip=127.0.0.1 | new TCP connection
+[2026-07-14 13:34:38] LOGIN_FAILED | user=alice | ip=127.0.0.1 | invalid credentials
+[2026-07-14 13:34:38] CONNECT | user=- | ip=127.0.0.1 | new TCP connection
+[2026-07-14 13:34:38] DISCONNECT | user=- | ip=127.0.0.1 | connection closed
+[2026-07-14 13:34:38] LOGIN_FAILED | user=alice | ip=127.0.0.1 | invalid credentials
+[2026-07-14 13:34:38] CONNECT | user=- | ip=127.0.0.1 | new TCP connection
+[2026-07-14 13:34:38] DISCONNECT | user=- | ip=127.0.0.1 | connection closed
+[2026-07-14 13:34:38] LOGIN_FAILED | user=alice | ip=127.0.0.1 | invalid credentials
+[2026-07-14 13:34:38] DISCONNECT | user=- | ip=127.0.0.1 | connection closed
+[2026-07-14 13:34:38] CONNECT | user=- | ip=127.0.0.1 | new TCP connection
+[2026-07-14 13:34:38] LOGIN_FAILED | user=alice | ip=127.0.0.1 | invalid credentials
+[2026-07-14 13:34:38] DISCONNECT | user=- | ip=127.0.0.1 | connection closed
+[2026-07-14 13:34:38] CONNECT | user=- | ip=127.0.0.1 | new TCP connection
+[2026-07-14 13:34:38] LOGIN_BLOCKED | user=alice | ip=127.0.0.1 | 59s remaining
+[2026-07-14 13:34:38] CONNECT | user=- | ip=127.0.0.1 | new TCP connection
+[2026-07-14 13:34:38] INVALID_INPUT | user=a! | ip=127.0.0.1 | invalid username format
+[2026-07-14 13:34:38] CONNECT | user=- | ip=127.0.0.1 | new TCP connection
+[2026-07-14 13:34:38] INVALID_INPUT | user=bob | ip=127.0.0.1 | empty or oversized password
+[2026-07-14 13:34:38] MESSAGE | user=tanvi | ip=127.0.0.1 | message relayed
+[2026-07-14 13:34:38] INVALID_INPUT | user=tanvi | ip=127.0.0.1 | unsupported command 'FOO'
+[2026-07-14 13:34:38] INVALID_INPUT | user=tanvi | ip=127.0.0.1 | oversized/empty message
+[2026-07-14 13:34:38] DISCONNECT | user=- | ip=127.0.0.1 | connection closed
+[2026-07-14 13:34:38] DISCONNECT | user=- | ip=127.0.0.1 | connection closed
+[2026-07-14 13:34:38] LOGOUT | user=tanvi | ip=127.0.0.1 | client requested
+[2026-07-14 13:34:38] DISCONNECT | user=- | ip=127.0.0.1 | connection closed
+[2026-07-14 13:34:38] DISCONNECT | user=- | ip=127.0.0.1 | connection closed
+[2026-07-14 13:34:38] DISCONNECT | user=- | ip=127.0.0.1 | connection closed
+[2026-07-15 11:59:49] SERVER_START | user=- | ip=0.0.0.0 | listening on port 5000
+[2026-07-15 12:01:18] SERVER_START | user=- | ip=0.0.0.0 | listening on port 5000
+[2026-07-15 12:07:14] CONNECT | user=- | ip=10.0.0.2 | new TCP connection
+[2026-07-15 12:07:14] LOGIN_SUCCESS | user=tanvi | ip=10.0.0.2 | authenticated
+[2026-07-15 12:09:14] SESSION_TIMEOUT | user=tanvi | ip=10.0.0.2 | idle 120s
+[2026-07-15 12:09:14] LOGOUT | user=tanvi | ip=10.0.0.2 | inactivity timeout
+[2026-07-15 12:09:14] DISCONNECT | user=- | ip=10.0.0.2 | connection closed
+[2026-07-15 14:26:39] CONNECT | user=- | ip=10.0.0.2 | new TCP connection
+[2026-07-15 14:26:39] LOGIN_SUCCESS | user=tanvi | ip=10.0.0.2 | authenticated
+[2026-07-15 14:27:48] MESSAGE | user=tanvi | ip=10.0.0.2 | message relayed
+[2026-07-15 14:29:49] SESSION_TIMEOUT | user=tanvi | ip=10.0.0.2 | idle 120s
+[2026-07-15 14:29:49] LOGOUT | user=tanvi | ip=10.0.0.2 | inactivity timeout
+[2026-07-15 14:29:49] DISCONNECT | user=- | ip=10.0.0.2 | connection closed
+[2026-07-15 14:30:27] CONNECT | user=- | ip=10.0.0.2 | new TCP connection
+[2026-07-15 14:30:27] LOGIN_SUCCESS | user=tanvi | ip=10.0.0.2 | authenticated
+[2026-07-15 14:30:44] CONNECT | user=- | ip=10.0.0.3 | new TCP connection
+[2026-07-15 14:30:44] DUPLICATE_LOGIN | user=tanvi | ip=10.0.0.3 | rejected - already logged in
+[2026-07-15 14:32:27] SESSION_TIMEOUT | user=tanvi | ip=10.0.0.2 | idle 120s
+[2026-07-15 14:32:27] LOGOUT | user=tanvi | ip=10.0.0.2 | inactivity timeout
+[2026-07-15 14:32:27] DISCONNECT | user=- | ip=10.0.0.2 | connection closed
+[2026-07-15 14:34:07] CONNECT | user=- | ip=10.0.0.2 | new TCP connection
+[2026-07-15 14:34:07] LOGIN_FAILED | user=tanvi | ip=10.0.0.2 | invalid credentials
+[2026-07-15 14:34:21] LOGIN_FAILED | user=tanvi | ip=10.0.0.3 | invalid credentials
+[2026-07-15 14:35:20] DISCONNECT | user=- | ip=10.0.0.3 | connection closed
+[2026-07-15 14:35:30] CONNECT | user=- | ip=10.0.0.3 | new TCP connection
+[2026-07-15 14:35:30] LOGIN_FAILED | user=tanvi | ip=10.0.0.3 | invalid credentials
+[2026-07-15 14:35:31] LOGIN_FAILED | user=tanvi | ip=10.0.0.3 | invalid credentials
+[2026-07-15 14:36:49] LOGIN_SUCCESS | user=tanvi | ip=10.0.0.2 | authenticated
+[2026-07-15 14:37:51] LOGOUT | user=tanvi | ip=10.0.0.2 | client requested
+[2026-07-15 14:37:51] DISCONNECT | user=- | ip=10.0.0.2 | connection closed
+[2026-07-15 14:37:59] CONNECT | user=- | ip=10.0.0.2 | new TCP connection
+[2026-07-15 14:37:59] LOGIN_FAILED | user=tanvi | ip=10.0.0.2 | invalid credentials
+[2026-07-15 14:38:03] LOGIN_FAILED | user=tanvi | ip=10.0.0.2 | invalid credentials
+[2026-07-15 14:38:04] LOGIN_FAILED | user=tanvi | ip=10.0.0.2 | invalid credentials
+[2026-07-15 14:38:09] LOGIN_FAILED | user=tanvi | ip=10.0.0.2 | invalid credentials
+[2026-07-15 14:38:15] LOGIN_FAILED | user=tanvi | ip=10.0.0.2 | invalid credentials
+[2026-07-15 14:38:21] LOGIN_BLOCKED | user=tanvi | ip=10.0.0.2 | 54s remaining
+[2026-07-15 14:40:24] LOGIN_FAILED | user=tanvi | ip=10.0.0.3 | invalid credentials
+[2026-07-15 14:40:31] LOGIN_SUCCESS | user=tanvi | ip=10.0.0.3 | authenticated
+[2026-07-15 14:40:41] MESSAGE | user=tanvi | ip=10.0.0.3 | message relayed
+[2026-07-15 14:40:42] LOGOUT | user=tanvi | ip=10.0.0.3 | client requested
+[2026-07-15 14:40:42] DISCONNECT | user=- | ip=10.0.0.3 | connection closed
+[2026-07-15 14:47:33] CONNECT | user=- | ip=10.0.0.3 | new TCP connection
+[2026-07-15 14:47:33] INVALID_INPUT | user=ta! | ip=10.0.0.3 | invalid username format
